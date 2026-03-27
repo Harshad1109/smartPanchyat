@@ -1,13 +1,12 @@
+# E-Governance Grievance System
 
-  # E-Governance Grievance System
+<!-- This is a code bundle for E-Governance Grievance System. The original project is available at https://www.figma.com/design/xxwEcvH3RnNZWUsMs0eMKx/E-Governance-Grievance-System. -->
 
-  <!-- This is a code bundle for E-Governance Grievance System. The original project is available at https://www.figma.com/design/xxwEcvH3RnNZWUsMs0eMKx/E-Governance-Grievance-System. -->
+<!-- ## Running the code
 
-  <!-- ## Running the code
+Run `npm i` to install the dependencies.
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server. -->
+Run `npm run dev` to start the development server. -->
 
 ⚙️ Prerequisites
 
@@ -20,8 +19,7 @@ MongoDB (Local installation or MongoDB Atlas)
 
 The backend requires a running MongoDB instance.
 
-Default Connection URL:
-
+🔗 Default Connection URL:
 mongodb://127.0.0.1:27017/smart_panchayat
 🔍 Check if MongoDB is Installed
 
@@ -35,8 +33,8 @@ mongod --version
 Download MongoDB Community Server (MSI) from the official website
 Run the installer
 Select Complete Setup
-✔ Enable Install MongoDB as a Service
-(Optional) Install MongoDB Compass for GUI access
+✔ Enable Install MongoDB as a Service (Optional)
+Install MongoDB Compass for GUI access
 🍎 macOS (using Homebrew)
 brew tap mongodb/brew
 brew install mongodb-community@7.0
