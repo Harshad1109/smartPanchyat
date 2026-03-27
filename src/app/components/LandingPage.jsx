@@ -209,9 +209,9 @@ export default function LandingPage() {
       </section>
 
       {/* Features Showcase */}
-      <section className="py-32 bg-gray-900 text-white relative overflow-hidden">
+      {/* <section className="py-32 bg-gray-900 text-white relative overflow-hidden"> */}
         {/* Decorative elements */}
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-emerald-900/40 rounded-full blur-[120px] -z-10 translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+        {/* <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-emerald-900/40 rounded-full blur-[120px] -z-10 translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-teal-900/30 rounded-full blur-[100px] -z-10 -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -244,10 +244,10 @@ export default function LandingPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-24 bg-emerald-600 relative overflow-hidden">
+      {/* <section className="py-24 bg-emerald-600 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
         <div className="max-w-4xl mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-8">{t("cta_title")}</h2>
@@ -260,10 +260,10 @@ export default function LandingPage() {
               </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
-      <footer className="bg-white pt-20 pb-10 border-t border-gray-100">
+      {/* <footer className="bg-white pt-20 pb-10 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 mb-16">
             <div className="col-span-1 md:col-span-5 pr-8">
@@ -276,17 +276,17 @@ export default function LandingPage() {
               <p className="text-gray-500 text-base leading-relaxed mb-8">
                 {t("footer_desc")}
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-4"> */}
                  {/* Social links placeholders */}
-                 {[1,2,3,4].map(i => (
+                 {/* {[1,2,3,4].map(i => (
                     <div key={i} className="w-10 h-10 rounded-full bg-gray-100 hover:bg-emerald-100 hover:text-emerald-600 text-gray-400 flex items-center justify-center transition-colors cursor-pointer">
                       <div className="w-4 h-4 bg-current rounded-[3px]"></div>
                     </div>
                  ))}
               </div>
-            </div>
+            </div> */}
             
-            <div className="col-span-1 md:col-span-3">
+            {/* <div className="col-span-1 md:col-span-3">
               <h4 className="font-bold text-gray-900 mb-6 text-lg tracking-wide uppercase">{t("quick_links")}</h4>
               <ul className="space-y-4 text-base font-medium text-gray-500">
                 <li><a href="#" className="hover:text-emerald-600 hover:pl-2 transition-all block">{t("about_initiative")}</a></li>
@@ -294,9 +294,9 @@ export default function LandingPage() {
                 <li><a href="#" className="hover:text-emerald-600 hover:pl-2 transition-all block">{t("view_public_dashboard")}</a></li>
                 <li><a href="#" className="hover:text-emerald-600 hover:pl-2 transition-all block">{t("help_faq")}</a></li>
               </ul>
-            </div>
+            </div> */}
             
-            <div className="col-span-1 md:col-span-4">
+            {/* <div className="col-span-1 md:col-span-4">
               <h4 className="font-bold text-gray-900 mb-6 text-lg tracking-wide uppercase">{t("contact_us")}</h4>
               <div className="bg-emerald-50/50 rounded-2xl p-6 border border-emerald-100">
                 <ul className="space-y-5 text-base font-medium text-gray-600">
@@ -315,9 +315,9 @@ export default function LandingPage() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           
-          <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500 font-medium">
+          {/* <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500 font-medium">
             <p>{t("copy_right")}</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-emerald-600 transition-colors">{t("privacy_policy")}</a>
@@ -326,7 +326,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
